@@ -1,4 +1,6 @@
 streamlit
 fal-client
 groq
-python-dotenv
+transformers
+torch
+sentencepiece
