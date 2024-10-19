@@ -1,0 +1,176 @@
+2024-10-19 19:17:08,355 - INFO - Application configuration set
+2024-10-19 19:17:08,356 - INFO - Starting application
+2024-10-19 19:17:08,818 - INFO - Mode selected: Text to Roman Urdu
+2024-10-19 19:17:08,820 - INFO - Application ended successfully
+2024-10-19 19:17:10,599 - INFO - Application configuration set
+2024-10-19 19:17:10,599 - INFO - Starting application
+2024-10-19 19:17:10,601 - INFO - Mode selected: Text to Image
+2024-10-19 19:17:10,603 - INFO - Application ended successfully
+2024-10-19 19:17:14,616 - INFO - Application configuration set
+2024-10-19 19:17:14,617 - INFO - Starting application
+2024-10-19 19:17:14,619 - INFO - Mode selected: Text to Image
+2024-10-19 19:17:14,621 - INFO - Application ended successfully
+2024-10-19 19:17:14,829 - INFO - Application configuration set
+2024-10-19 19:17:14,829 - INFO - Starting application
+2024-10-19 19:17:14,831 - INFO - Mode selected: Text to Image
+2024-10-19 19:17:14,833 - INFO - Starting image generation process
+2024-10-19 19:17:14,834 - INFO - Starting image generation for prompt: horse
+2024-10-19 19:17:14,835 - ERROR - Error in image generation: Please set the FAL_KEY environment variable to your API key, or set the FAL_KEY_ID and FAL_KEY_SECRET environment variables.
+Traceback (most recent call last):
+  File "C:\Users\raahi\Desktop\UNI\SEM7\assindplearning\main.py", line 87, in generate_image
+    result = fal_client.subscribe(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\client.py", line 540, in subscribe
+    handle = self.submit(application, arguments, path=path, hint=hint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\client.py", line 512, in submit
+    response = self._client.post(
+               ^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\functools.py", line 1001, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\client.py", line 451, in _client
+    key = fetch_credentials()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\auth.py", line 19, in fetch_credentials
+    raise MissingCredentialsError(
+fal_client.auth.MissingCredentialsError: Please set the FAL_KEY environment variable to your API key, or set the FAL_KEY_ID and FAL_KEY_SECRET environment variables.
+2024-10-19 19:17:14,840 - WARNING - Image generation returned no result
+2024-10-19 19:17:14,841 - INFO - Application ended successfully
+2024-10-19 19:19:34,401 - INFO - Application configuration set
+2024-10-19 19:19:34,402 - INFO - Starting application
+2024-10-19 19:19:34,864 - INFO - Mode selected: Text to Roman Urdu
+2024-10-19 19:19:34,866 - INFO - Application ended successfully
+2024-10-19 19:19:37,273 - INFO - Application configuration set
+2024-10-19 19:19:37,274 - INFO - Starting application
+2024-10-19 19:19:37,275 - INFO - Mode selected: Text to Image
+2024-10-19 19:19:37,277 - INFO - Application ended successfully
+2024-10-19 19:19:41,648 - INFO - Application configuration set
+2024-10-19 19:19:41,649 - INFO - Starting application
+2024-10-19 19:19:41,651 - INFO - Mode selected: Text to Image
+2024-10-19 19:19:41,653 - INFO - Application ended successfully
+2024-10-19 19:19:41,866 - INFO - Application configuration set
+2024-10-19 19:19:41,867 - INFO - Starting application
+2024-10-19 19:19:41,868 - INFO - Mode selected: Text to Image
+2024-10-19 19:19:41,869 - INFO - Starting image generation process
+2024-10-19 19:19:41,871 - INFO - Starting image generation for prompt: horse
+2024-10-19 19:19:41,871 - ERROR - Error in image generation: Please set the FAL_KEY environment variable to your API key, or set the FAL_KEY_ID and FAL_KEY_SECRET environment variables.
+Traceback (most recent call last):
+  File "C:\Users\raahi\Desktop\UNI\SEM7\assindplearning\main.py", line 87, in generate_image
+    result = fal_client.subscribe(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\client.py", line 540, in subscribe
+    handle = self.submit(application, arguments, path=path, hint=hint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\client.py", line 512, in submit
+    response = self._client.post(
+               ^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\functools.py", line 1001, in __get__
+    val = self.func(instance)
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\client.py", line 451, in _client
+    key = fetch_credentials()
+          ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\raahi\anaconda3\Lib\site-packages\fal_client\auth.py", line 19, in fetch_credentials
+    raise MissingCredentialsError(
+fal_client.auth.MissingCredentialsError: Please set the FAL_KEY environment variable to your API key, or set the FAL_KEY_ID and FAL_KEY_SECRET environment variables.
+2024-10-19 19:19:41,877 - WARNING - Image generation returned no result
+2024-10-19 19:19:41,877 - INFO - Application ended successfully
+2024-10-19 19:20:11,753 - INFO - Application configuration set
+2024-10-19 19:20:11,754 - INFO - Starting application
+2024-10-19 19:20:12,253 - INFO - Mode selected: Text to Roman Urdu
+2024-10-19 19:20:12,255 - INFO - Application ended successfully
+2024-10-19 19:20:14,347 - INFO - Application configuration set
+2024-10-19 19:20:14,348 - INFO - Starting application
+2024-10-19 19:20:14,349 - INFO - Mode selected: Text to Image
+2024-10-19 19:20:14,350 - INFO - Application ended successfully
+2024-10-19 19:20:17,545 - INFO - Application configuration set
+2024-10-19 19:20:17,546 - INFO - Starting application
+2024-10-19 19:20:17,548 - INFO - Mode selected: Text to Image
+2024-10-19 19:20:17,550 - INFO - Application ended successfully
+2024-10-19 19:20:17,761 - INFO - Application configuration set
+2024-10-19 19:20:17,761 - INFO - Starting application
+2024-10-19 19:20:17,763 - INFO - Mode selected: Text to Image
+2024-10-19 19:20:17,765 - INFO - Starting image generation process
+2024-10-19 19:20:17,766 - INFO - Starting image generation for prompt: horse
+2024-10-19 19:20:19,933 - INFO - HTTP Request: POST https://queue.fal.run/fal-ai/flux/schnell "HTTP/1.1 200 OK"
+2024-10-19 19:20:22,070 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:22,415 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:22,822 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:23,223 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:23,632 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:25,896 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:26,304 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:26,699 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:28,463 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:31,653 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:32,017 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:32,412 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:32,774 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:37,391 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:37,978 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:38,506 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:38,966 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:39,459 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:40,347 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:42,860 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:43,260 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:43,610 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:44,501 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:44,906 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:45,723 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:46,469 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:48,457 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:49,076 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:49,430 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:49,783 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:51,681 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:52,034 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:52,512 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:53,626 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:54,052 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:54,402 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:54,944 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:55,296 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:55,700 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:56,103 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:56,457 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:56,826 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:57,240 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:58,995 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:20:59,345 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:01,005 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:01,458 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:01,840 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:02,271 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:02,686 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:03,107 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:03,505 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:03,920 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:04,467 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:04,817 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:05,180 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:05,593 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:06,814 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:08,089 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:08,586 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:08,952 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:09,707 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:10,462 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:10,832 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:12,671 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:13,066 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:14,509 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:14,853 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:15,261 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:15,633 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:16,972 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:17,340 - INFO - HTTP Request: GET https://queue.fal.run/fal-ai/flux/requests/811444af-07b2-43f8-96a9-9439253614b0/status?logs=true "HTTP/1.1 202 Accepted"
+2024-10-19 19:21:39,908 - INFO - Application configuration set
+2024-10-19 19:21:39,908 - INFO - Application configuration set
+2024-10-19 19:21:39,908 - INFO - Starting application
+2024-10-19 19:21:39,909 - INFO - Starting application
+2024-10-19 19:21:39,911 - INFO - Mode selected: Text to Roman Urdu
+2024-10-19 19:21:39,914 - INFO - Application ended successfully
+2024-10-19 19:21:40,499 - INFO - Mode selected: Text to Roman Urdu
+2024-10-19 19:21:40,500 - INFO - Application ended successfully
